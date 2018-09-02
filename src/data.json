@@ -1,5 +1,8 @@
 {
   "header": {
-    "title": "Tim Smith's Resume",
-  }
+    "title": "Tim Smith's Resume"
+  },
+  "skills": [
+    {"name": "HTML", "duration": 14}
+  ]
 }
