@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './Resume.css';
-import axios from 'axios';
-import Header from './Header';
-import Skills from './Skills';
+import './colors.scss';
+import './Resume.scss';
+import Header from './containers/Header';
+import Skills from './containers/Skills';
 import data from './data.json';
 
 
@@ -18,7 +18,7 @@ class Resume extends Component {
   }
   render() {
     return (
-      <div className="Resume">
+      <div className="resume">
         <Header data={this.state.header} />
         <Skills data={this.state.skills} />
       </div>

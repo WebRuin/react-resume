@@ -1,0 +1,96 @@
+@include colors;
+
+.header {
+  display: flex;
+  padding-bottom: 1rem;
+  // margin-bottom: 1rem;
+  border-bottom: $white 4px solid;
+  background: $dark-gray;
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+
+    p {
+      font-size: 1.75rem;
+
+      strong{
+        font-weight: bold;
+      }
+    }
+
+    div {
+      width: 15%;
+    }
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+
+    h2 {
+      font-size: 2.5rem;
+    }
+  }
+
+  .header-contact {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.5rem 0;
+
+    a {
+      display: block;
+      color: $white;
+      text-decoration: none;
+      font-size: 1.7rem;
+    }
+  }
+
+  .nav {
+
+    &.fixed {
+      width: 89%;
+      position: fixed;
+      background: $dark-gray-alpha;
+      padding: 1rem 0;
+      border-bottom: 3px solid $white;
+      width: 1200px;
+      z-index: 9999;
+      margin: 0 auto;
+    }
+
+    ul {
+      display: flex;
+      justify-content: space-evenly;
+
+      li {
+
+        a {
+          display: block;
+          width: 100%;
+          text-decoration: none;
+          color: $white;
+          padding: 0.5rem 1rem;
+          font-size: 1.75rem;
+        }
+      }
+    }
+  }
+
+  h1 {
+    color: $white;
+    text-transform: capitalize;
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+}

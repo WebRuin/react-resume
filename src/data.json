@@ -1,6 +1,15 @@
 {
   "header": {
-    "title": "Tim Smith's Resume"
+    "title": "Tim Smith's Resume",
+    "name": "Tim Smith",
+    "tag": "I am seeking a Frontend Developer role to satisfy my technical passions and  artistic.  Career growth opportunities are a big plus especially in the areas of Full Stack Javascript and ReactJS.",
+    "t1": "Frontend Web Developer",
+    "t2": "React Developer",
+    "phone": "415-694-3568",
+    "email": "tim.smith.hdg@gmail.com",
+    "nav": [
+      "resume", "about", "portfolio", "contact"
+    ]
   },
   "skills": [
     {"name": "HTML", "duration": 14}
